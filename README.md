@@ -21,15 +21,15 @@
 - To show the outline of each polygon, uncomment line 261 (the color can be altered by changing the hex color code in line 260)
 
 ### RESULTS VISUALIZATION
-- Set visREs, found in line 196, to true
-- In line 293, change "<insert_file_name>" to the appropriate .txt that is to be visualized
+- Set visRes, found in line 196, to true
+- In line 293, change "./result_files/<insert_file_name>" to the appropriate .txt that is to be visualized
 - The colors may be changed in line 297 (for the points lines) and line 303 (for the lines)
 #### Expected .txt format
 - There will be n lines, where n is equal to the number of points traversed there are in the path
 
 ### SEARCH NODE VISUALIZATION
 - Set visSearchNodes, found in line 197, to true
-- In line 267, change "<insert_file_name>" to the appropriate .txt that is to be visualized
+- In line 267, change "./searchNode_files/<insert_file_name>" to the appropriate .txt that is to be visualized
 - To add a label for each root, uncomment line 277
 #### Expected .txt format
 - There will be i*3 lines, where i is equal to the number of search nodes there are
