@@ -2,8 +2,10 @@
 
 ## MAP GENERATION
 - This is used to create the random maps that will be the input for Spherical Anya
-- To create a file, run the following command in the terminal: 
-    "node delauney.js ./mesh_files/<filename>.sph"
+- To create a file, run the following command in the terminal:
+    "cd map_generation"
+    "npm install d3-geo-voronoi"
+    "node delauney.js ../sphere_vis/mesh_files/<filename>.sph"
 - To adjust the number of points that will be used, at line 133, change the number inside generateRandomPoints(200);
     For example, generateRandomPoints(1000); will use 1000 points
 - To adjust the number of obstacles in the map, change the second parameter in the removeTriangles() function in line 135
